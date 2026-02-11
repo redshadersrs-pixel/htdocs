@@ -14,7 +14,7 @@ $options = [
 try 
 {
      $pdo = new PDO($dsn, $user, $pass, $options);
-     echo "Connectie gemaakt!";
+     echo "Connected to database (db_name)";
 } 
 catch (\PDOException $e) 
 {
